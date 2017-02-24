@@ -1,7 +1,9 @@
 # eslint config - airbnb versus create-reat-app
 I need to compare how [eslint](http://eslint.org) configuration in [create-react-app](https://github.com/facebookincubator/create-react-app/tree/master/packages/eslint-config-react-app) is different with [airbnb one](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb/rules).
 
-To play with airbnb's eslint, I combine this great [tutorial](https://robinwieruch.de/react-eslint-webpack-babel/) from [@rwieruch](https://github.com/rwieruch) and his [minimum react setup repo](https://github.com/rwieruch/minimal-react-webpack-babel-setup)
+To play with airbnb's eslint, I combine this great [tutorial](https://robinwieruch.de/react-eslint-webpack-babel/) from [@rwieruch](https://github.com/rwieruch) and his [minimum react setup repo](https://github.com/rwieruch/minimal-react-webpack-babel-setup).
+
+With create-react-app's eslint, it's straightfoward, just create app with that tool then your app has eslint preconfig.
 
 ## Some notes
 - airbnb's eslint is more opinionated than [creat-react-app's one](https://github.com/facebookincubator/create-react-app/blob/master/packages/eslint-config-react-app/index.js#L10). 
